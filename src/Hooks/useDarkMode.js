@@ -1,21 +1,27 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 function useDarkMode() {
-    
-  const [theme, setTheme] = useState(localStorage.theme)
-  const colorTheme = theme === "dark" ? "light" : "dark";
+    // Estado para almacenar el tema actual (dark o light)
+    const [theme, setTheme] = useState(localStorage.theme);
 
-  useEffect(() => {
+    // Determina el tema opuesto al actual
+    const colorTheme = theme === "dark" ? "light" : "dark";
 
-    const root = window.document.documentElement;
-    root.classList.remove(colorTheme);
-    root.classList.add(theme);
-    localStorage.setItem('theme', theme);
+    useEffect(() => {
+        // Accede al elemento raíz del documento
+        const root = window.document.documentElement;
 
-}, [theme, colorTheme]);
+        // Elimina la clase del tema opuesto y agrega la clase del tema actual
+        root.classList.remove(colorTheme);
+        root.classList.add(theme);
 
-return [colorTheme, setTheme]
+        // Almacena el tema actual en el almacenamiento local
+        localStorage.setItem('theme', theme);
 
+    }, [theme, colorTheme]);
+
+    // Devuelve el tema actual y la función para cambiar el tema
+    return [colorTheme, setTheme];
 }
 
-export default useDarkMode
+export default useDarkMode;
