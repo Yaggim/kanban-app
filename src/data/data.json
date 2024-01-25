@@ -1,68 +1,68 @@
 {
   "boards": [
     {
-      "name": "Platform Launch",
+      "name": "Lanzamiento de la Plataforma",
       "isActive" : true,
       "columns": [
         {
-          "name": "Todo",
+          "name": "Por Hacer",
           "tasks": [
             {
-              "title": "Build UI for onboarding flow",
+              "title": "Construir la interfaz de usuario para el flujo de incorporación",
               "description": "",
-              "status": "Todo",
+              "status": "Por Hacer",
               "subtasks": [
                 {
-                  "title": "Sign up page",
+                  "title": "Página de registro",
                   "isCompleted": true
                 },
                 {
-                  "title": "Sign in page",
+                  "title": "Página de inicio de sesión",
                   "isCompleted": false
                 },
                 {
-                  "title": "Welcome page",
+                  "title": "Página de bienvenida",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Build UI for search",
+              "title": "Construir la interfaz de usuario para la búsqueda",
               "description": "",
-              "status": "Todo",
+              "status": "Por Hacer",
               "subtasks": [
                 {
-                  "title": "Search page",
+                  "title": "Página de búsqueda",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Build settings UI",
+              "title": "Construir la interfaz de configuración",
               "description": "",
-              "status": "Todo",
+              "status": "Por Hacer",
               "subtasks": [
                 {
-                  "title": "Account page",
+                  "title": "Página de cuenta",
                   "isCompleted": false
                 },
                 {
-                  "title": "Billing page",
+                  "title": "Página de facturación",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "QA and test all major user journeys",
-              "description": "Once we feel version one is ready, we need to rigorously test it both internally and externally to identify any major gaps.",
-              "status": "Todo",
+              "title": "QA y probar todos los flujos principales de usuarios",
+              "description": "Una vez que consideramos que la versión uno está lista, necesitamos probarla rigurosamente tanto interna como externamente para identificar posibles problemas.",
+              "status": "Por Hacer",
               "subtasks": [
                 {
-                  "title": "Internal testing",
+                  "title": "Pruebas internas",
                   "isCompleted": false
                 },
                 {
-                  "title": "External testing",
+                  "title": "Pruebas externas",
                   "isCompleted": false
                 }
               ]
@@ -70,110 +70,110 @@
           ]
         },
         {
-          "name": "Doing",
+          "name": "En Proceso",
           "tasks": [
             {
-              "title": "Design settings and search pages",
+              "title": "Diseñar páginas de configuración y búsqueda",
               "description": "",
-              "status": "Doing",
+              "status": "En Proceso",
               "subtasks": [
                 {
-                  "title": "Settings - Account page",
+                  "title": "Configuración - Página de cuenta",
                   "isCompleted": true
                 },
                 {
-                  "title": "Settings - Billing page",
+                  "title": "Configuración - Página de facturación",
                   "isCompleted": true
                 },
                 {
-                  "title": "Search page",
+                  "title": "Página de búsqueda",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Add account management endpoints",
+              "title": "Agregar puntos de gestión de cuentas",
               "description": "",
-              "status": "Doing",
+              "status": "En Proceso",
               "subtasks": [
                 {
-                  "title": "Upgrade plan",
+                  "title": "Actualizar plan",
                   "isCompleted": true
                 },
                 {
-                  "title": "Cancel plan",
+                  "title": "Cancelar plan",
                   "isCompleted": true
                 },
                 {
-                  "title": "Update payment method",
+                  "title": "Actualizar método de pago",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Design onboarding flow",
+              "title": "Diseñar flujo de incorporación",
               "description": "",
-              "status": "Doing",
+              "status": "En Proceso",
               "subtasks": [
                 {
-                  "title": "Sign up page",
+                  "title": "Página de registro",
                   "isCompleted": true
                 },
                 {
-                  "title": "Sign in page",
+                  "title": "Página de inicio de sesión",
                   "isCompleted": false
                 },
                 {
-                  "title": "Welcome page",
+                  "title": "Página de bienvenida",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Add search enpoints",
+              "title": "Agregar puntos de búsqueda",
               "description": "",
-              "status": "Doing",
+              "status": "En Proceso",
               "subtasks": [
                 {
-                  "title": "Add search endpoint",
+                  "title": "Agregar punto de búsqueda",
                   "isCompleted": true
                 },
                 {
-                  "title": "Define search filters",
+                  "title": "Definir filtros de búsqueda",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Add authentication endpoints",
+              "title": "Agregar puntos de autenticación",
               "description": "",
-              "status": "Doing",
+              "status": "En Proceso",
               "subtasks": [
                 {
-                  "title": "Define user model",
+                  "title": "Definir modelo de usuario",
                   "isCompleted": true
                 },
                 {
-                  "title": "Add auth endpoints",
+                  "title": "Agregar puntos de autenticación",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Research pricing points of various competitors and trial different business models",
-              "description": "We know what we're planning to build for version one. Now we need to finalise the first pricing model we'll use. Keep iterating the subtasks until we have a coherent proposition.",
-              "status": "Doing",
+              "title": "Investigar los puntos de precio de varios competidores y probar diferentes modelos de negocios",
+              "description": "Sabemos lo que estamos planeando construir para la versión uno. Ahora necesitamos finalizar el primer modelo de precios que utilizaremos. Continuar iterando en las subtareas hasta tener una propuesta coherente.",
+              "status": "En Proceso",
               "subtasks": [
                 {
-                  "title": "Research competitor pricing and business models",
+                  "title": "Investigar precios y modelos de negocios de competidores",
                   "isCompleted": true
                 },
                 {
-                  "title": "Outline a business model that works for our solution",
+                  "title": "Esquematizar un modelo de negocio que funcione para nuestra solución",
                   "isCompleted": false
                 },
                 {
-                  "title": "Talk to potential customers about our proposed solution and ask for fair price expectancy",
+                  "title": "Hablar con posibles clientes sobre nuestra solución propuesta y pedir expectativas de precio justas",
                   "isCompleted": false
                 }
               ]
@@ -181,101 +181,101 @@
           ]
         },
         {
-          "name": "Done",
+          "name": "Hecho",
           "tasks": [
             {
-              "title": "Conduct 5 wireframe tests",
-              "description": "Ensure the layout continues to make sense and we have strong buy-in from potential users.",
-              "status": "Done",
+              "title": "Realizar 5 pruebas de maquetas",
+              "description": "Asegurar que el diseño continúe teniendo sentido y que tengamos una fuerte aceptación de los usuarios potenciales.",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Complete 5 wireframe prototype tests",
+                  "title": "Completar 5 pruebas de prototipos de maquetas",
                   "isCompleted": true
                 }
               ]
             },
             {
-              "title": "Create wireframe prototype",
-              "description": "Create a greyscale clickable wireframe prototype to test our asssumptions so far.",
-              "status": "Done",
+              "title": "Crear prototipo de maqueta",
+              "description": "Crear un prototipo de maqueta interactivo en escala de grises para probar nuestras suposiciones hasta ahora.",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Create clickable wireframe prototype in Balsamiq",
+                  "title": "Crear prototipo de maqueta interactivo en Balsamiq",
                   "isCompleted": true
                 }
               ]
             },
             {
-              "title": "Review results of usability tests and iterate",
-              "description": "Keep iterating through the subtasks until we're clear on the core concepts for the app.",
-              "status": "Done",
+              "title": "Revisar resultados de pruebas de usabilidad e iterar",
+              "description": "Continuar iterando a través de las subtareas hasta que tengamos una comprensión clara de los conceptos clave para la aplicación.",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Meet to review notes from previous tests and plan changes",
+                  "title": "Reunirse para revisar notas de pruebas anteriores y planificar cambios",
                   "isCompleted": true
                 },
                 {
-                  "title": "Make changes to paper prototypes",
+                  "title": "Realizar cambios en prototipos de papel",
                   "isCompleted": true
                 },
                 {
-                  "title": "Conduct 5 usability tests",
+                  "title": "Realizar 5 pruebas de usabilidad",
                   "isCompleted": true
                 }
               ]
             },
             {
-              "title": "Create paper prototypes and conduct 10 usability tests with potential customers",
+              "title": "Crear prototipos de papel y realizar 10 pruebas de usabilidad con clientes potenciales",
               "description": "",
-              "status": "Done",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Create paper prototypes for version one",
+                  "title": "Crear prototipos de papel para la versión uno",
                   "isCompleted": true
                 },
                 {
-                  "title": "Complete 10 usability tests",
+                  "title": "Completar 10 pruebas de usabilidad",
                   "isCompleted": true
                 }
               ]
             },
             {
-              "title": "Market discovery",
-              "description": "We need to define and refine our core product. Interviews will help us learn common pain points and help us define the strongest MVP.",
-              "status": "Done",
+              "title": "Descubrimiento de mercado",
+              "description": "Necesitamos definir y refinar nuestro producto principal. Las entrevistas nos ayudarán a aprender los puntos comunes de dolor y nos ayudarán a definir el MVP más fuerte.",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Interview 10 prospective customers",
+                  "title": "Entrevistar a 10 clientes potenciales",
                   "isCompleted": true
                 }
               ]
             },
             {
-              "title": "Competitor analysis",
+              "title": "Análisis de competidores",
               "description": "",
-              "status": "Done",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Find direct and indirect competitors",
+                  "title": "Encontrar competidores directos e indirectos",
                   "isCompleted": true
                 },
                 {
-                  "title": "SWOT analysis for each competitor",
+                  "title": "Análisis FODA para cada competidor",
                   "isCompleted": true
                 }
               ]
             },
             {
-              "title": "Research the market",
-              "description": "We need to get a solid overview of the market to ensure we have up-to-date estimates of market size and demand.",
-              "status": "Done",
+              "title": "Investigar el mercado",
+              "description": "Necesitamos obtener una visión sólida del mercado para asegurarnos de tener estimaciones actualizadas del tamaño del mercado y la demanda.",
+              "status": "Hecho",
               "subtasks": [
                 {
-                  "title": "Write up research analysis",
+                  "title": "Redactar análisis de investigación",
                   "isCompleted": true
                 },
                 {
-                  "title": "Calculate TAM",
+                  "title": "Calcular TAM",
                   "isCompleted": true
                 }
               ]
@@ -285,81 +285,81 @@
       ]
     },
     {
-      "name": "Marketing Plan",
+      "name": "Plan de Marketing",
       "isActive" : false,
       "columns": [
         {
-          "name": "Todo",
+          "name": "Por hacer",
           "tasks": [
             {
-              "title": "Plan Product Hunt launch",
+              "title": "Planificar lanzamiento en Product Hunt",
               "description": "",
-              "status": "Todo",
+              "status": "Por hacer",
               "subtasks": [
                 {
-                  "title": "Find hunter",
+                  "title": "Encontrar cazador",
                   "isCompleted": false
                 },
                 {
-                  "title": "Gather assets",
+                  "title": "Recopilar recursos",
                   "isCompleted": false
                 },
                 {
-                  "title": "Draft product page",
+                  "title": "Redactar página del producto",
                   "isCompleted": false
                 },
                 {
-                  "title": "Notify customers",
+                  "title": "Notificar a los clientes",
                   "isCompleted": false
                 },
                 {
-                  "title": "Notify network",
+                  "title": "Notificar a la red",
                   "isCompleted": false
                 },
                 {
-                  "title": "Launch!",
+                  "title": "¡Lanzar!",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Share on Show HN",
+              "title": "Compartir en Show HN",
               "description": "",
               "status": "",
               "subtasks": [
                 {
-                  "title": "Draft out HN post",
+                  "title": "Redactar publicación de Show HN",
                   "isCompleted": false
                 },
                 {
-                  "title": "Get feedback and refine",
+                  "title": "Obtener comentarios y mejorar",
                   "isCompleted": false
                 },
                 {
-                  "title": "Publish post",
+                  "title": "Publicar publicación",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Write launch article to publish on multiple channels",
+              "title": "Escribir artículo de lanzamiento para publicar en varios canales",
               "description": "",
               "status": "",
               "subtasks": [
                 {
-                  "title": "Write article",
+                  "title": "Escribir artículo",
                   "isCompleted": false
                 },
                 {
-                  "title": "Publish on LinkedIn",
+                  "title": "Publicar en LinkedIn",
                   "isCompleted": false
                 },
                 {
-                  "title": "Publish on Inndie Hackers",
+                  "title": "Publicar en Inndie Hackers",
                   "isCompleted": false
                 },
                 {
-                  "title": "Publish on Medium",
+                  "title": "Publicar en Medium",
                   "isCompleted": false
                 }
               ]
@@ -367,52 +367,52 @@
           ]
         },
         {
-          "name": "Doing",
+          "name": "En proceso",
           "tasks": []
         },
         {
-          "name": "Done",
+          "name": "Hecho",
           "tasks": []
         }
       ]
     },
     {
-      "name": "Roadmap",
+      "name": "Hoja de Ruta",
       "isActive" : false,
       "columns": [
         {
-          "name": "Now",
+          "name": "Ahora",
           "tasks": [
             {
-              "title": "Launch version one",
+              "title": "Lanzar primera versión",
               "description": "",
               "status": "",
               "subtasks": [
                 {
-                  "title": "Launch privately to our waitlist",
+                  "title": "Lanzar de forma privada a nuestra lista de espera",
                   "isCompleted": false
                 },
                 {
-                  "title": "Launch publicly on PH, HN, etc.",
+                  "title": "Lanzar públicamente en PH, HN, etc.",
                   "isCompleted": false
                 }
               ]
             },
             {
-              "title": "Review early feedback and plan next steps for roadmap",
-              "description": "Beyond the initial launch, we're keeping the initial roadmap completely empty. This meeting will help us plan out our next steps based on actual customer feedback.",
+              "title": "Revisar los primeros comentarios y planificar los próximos pasos para la hoja de ruta",
+              "description": "Más allá del lanzamiento inicial, mantenemos la hoja de ruta inicial completamente vacía. Esta reunión nos ayudará a planificar nuestros próximos pasos basándonos en los comentarios reales de los clientes.",
               "status": "",
               "subtasks": [
                 {
-                  "title": "Interview 10 customers",
+                  "title": "Entrevistar a 10 clientes",
                   "isCompleted": false
                 },
                 {
-                  "title": "Review common customer pain points and suggestions",
+                  "title": "Revisar los puntos comunes de dolor y sugerencias de los clientes",
                   "isCompleted": false
                 },
                 {
-                  "title": "Outline next steps for our roadmap",
+                  "title": "Esbozar los próximos pasos para nuestra hoja de ruta",
                   "isCompleted": false
                 }
               ]
@@ -420,11 +420,11 @@
           ]
         },
         {
-          "name": "Next",
+          "name": "Próximo",
           "tasks": []
         },
         {
-          "name": "Later",
+          "name": "Después",
           "tasks": []
         }
       ]
