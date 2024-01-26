@@ -82,7 +82,7 @@ function AddEditBoardModal({setBoardModalOpen, type}) {
           <h3
           className=' text-lg'
           >
-            {type === 'edit' ? 'Edit' : 'Add New'} Board
+            {type === 'edit' ? 'Editar' : 'Agregar Nuevo'} Tablero
           </h3>
 
           {/*Task name */}
@@ -94,7 +94,7 @@ function AddEditBoardModal({setBoardModalOpen, type}) {
               <input 
               className=' bg-transparent px-4 py-2 rounded-md text-sm border border-gray-600
                focus:outline-[#635fc7] outline-none outline-1 ring-0'
-               placeholder=' e.g Web design'
+               placeholder=' ej: Diseño Web'
                value={name}
                onChange={(e)=>{
                   setName(e.target.value);

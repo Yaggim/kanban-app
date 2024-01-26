@@ -5,6 +5,7 @@ import iconUp from '../assets/icon-chevron-up.svg'
 import elipsis from '../assets/icon-vertical-ellipsis.svg';
 import HeaderDropdown from './HeaderDropdown';
 import AddEditBoardModal from '../modals/AddEditBoardModal';
+import AddEditTaskModal from '../modals/AddEditTaskModal';
 import { useDispatch, useSelector } from 'react-redux'
 
 function Header({boardModalOpen, setBoardModalOpen}) {
@@ -12,6 +13,7 @@ function Header({boardModalOpen, setBoardModalOpen}) {
 
     const dispatch = useDispatch()
     const [openDropdown, setOpenDropdown] = useState(false)
+    const [openAddEditTask, setOpenAddEditTask] = useState(false)
     const [boardType, setBoardType] = useState('agregar')
     const boards = useSelector((state)=> state.boards)
     const board = boards.find(board => board.isActive)
@@ -47,7 +49,11 @@ function Header({boardModalOpen, setBoardModalOpen}) {
                     + Agregar nueva tarea
                 </button>
 
-                <button className="button py-1 px-3 md:hidden">
+                <button 
+                onClick={() => {
+                    setOpenAddEditTask(state => !state)
+                }}
+                className="button py-1 px-3 md:hidden">
                     +
                 </button>
 
@@ -62,6 +68,12 @@ function Header({boardModalOpen, setBoardModalOpen}) {
         {
             boardModalOpen && <AddEditBoardModal type={boardType} setBoardModalOpen={setBoardModalOpen}/>
         }
+
+
+        {openAddEditTask && <AddEditTaskModal device='mobile' setOpenAddEditTask={setOpenAddEditTask} type={'agregar'}/>
+
+        }
+
     </div>
   )
 }
